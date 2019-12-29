@@ -8,6 +8,46 @@ interface progressPlayer {
     loadedSeconds: number;
 }
 
+interface Data {
+    time: string;
+    duration: string;
+    nerdcast: number;
+    content: Infos
+}
+
+type Infos = 
+| {
+    type: "roll";
+    char: "Don Azaghal" | "Thomas Faraday" | "Leonel Caldela (Mestre)" | "Giacomo 'Búfalo' Di Monti" | "Stephen H. P. Veinkman" | "Jimmy O' Flannegan" | "Billy";
+    dice: "d4" | "d6" | "d8" | "d10" | "d12" | "d20" | "d100";
+    ammount: number;
+    uncertainRoll?: boolean;
+    testType?: string;
+    result: number;
+} 
+| {
+    type: "refference";
+    title: string;
+    content: string;
+    externalUrl?: string;
+}
+| {
+    type: "fan-handout";
+    title?: string;
+    info?: string;
+    contentType: "text" | "image" | "video";
+    contentUrl?: string;
+    creditsText: string;
+    creditsUrl?: string;
+}
+| {
+    type: "handout";
+    title: string;
+    info?: string;
+    contentType: "text" | "image" | "video";
+    contentUrl?: string;
+}
+
 const Player:React.FC = () => {
 
 
