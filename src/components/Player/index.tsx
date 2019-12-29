@@ -52,6 +52,10 @@ type Infos = {
         info?: string;
         contentType: "text" | "image" | "video";
         contentUrl?: string
+    } | {
+        type: "background";
+        class: string;
+        backgroundType: "image" | "class"
     }
 
 const Player:React.FC = () => {

@@ -1,6 +1,8 @@
 import React from 'react';
+import '../../styles/images.scss';
+import '../../styles/gradients.scss';
 import './App.scss';
-import Player from './components/Player';
+import Player from '../../components/Player';
 
 const App: React.FC = () => {
   
