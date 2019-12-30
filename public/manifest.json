@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Nerdcast RPG",
+  "name": "Nerdcast RPG Info - Dados sobre os nerdcasts de RPG",
   "icons": [
     {
       "src": "favicon.ico",
