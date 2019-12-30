@@ -1,44 +1,36 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Nerdcast RPG Info
+---
 
-## Available Scripts
+### Um site, *da comunidade, para a comunidade*, para ter mais informações e detalhes dos Nerdcasts de RPG.
+O inutito deste projeto é fazer com que a experiência dos Nerdcasts de RPG sejam mais imersivas, tanto para os novos
+nerds, quanto para os de longa data. Neste projeto, tem um player simpes dos episódios do Nerdcast RPG (De momento, somente de _Call of Cthulhu_), na qual, conforme vai passando o tempo do podcast, conforme as informações forem sendo
+ditas, o ambiente vai sendo formado, vai mostrando as informações na tela.
 
-In the project directory, you can run:
+---
 
-### `yarn start`
+Funcionalidades: 
+- Rolagem de dados dos personagens;
+- Ambientação de tela conforme os acontecidos do podcast;
+- _Handouts_ dos jogadores (URLs de referência, Textos descritivos);
+- _Handouts_ da comunidade (Textos, Imagens e Vídeos, todos com créditos);
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+TODO: 
+- Sugestões de dados a ser colocados;
+- Votação das sugestões da comunidade;
+- Incluir suporte para os outros nerdcasts de RPG;
 
-### `yarn test`
+---
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Sugestões
+Para novas sugestões e/ou inclusão de _handout_, ou qualquer outro dado, enquanto não tem as sugestões de inclusão,
+[Abra uma issue](https://github.com/fleflis/nerdcast-rpg-info/issues). Irei analisar todas com carinho <3
 
-### `yarn build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Disclaimer
+O Podcast em si **NÃO É HOSTEADO EM OUTRO LUGAR**. O stream/download do Podcast é da própria CDN do Nerdcast (Próprio 
+host), então, não irá interferir na contagem de downloads dos memsos.
+O site, os dados mostrados, imagens e referências não tem nenhum compromisso com a realidade ou fidelidade dos dados.
+Todos os dados gerados são recolhidos por fãs, a não ser que seja explicitamente dito o contrário. 
+Jovem Nerd, Nerdstore, Nerdcast e outros são marcas registradas dos seus respectivos donos.
+Talvez tenha alguns direitos reservados, mas provavelmente não.
